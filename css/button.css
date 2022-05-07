@@ -1,0 +1,21 @@
+.custonButton {
+    border: 3px solid;
+    border-radius: 5px;
+
+    padding: 4px;
+
+    font-size: 1.3em;
+    transition-duration: 0.4s;
+}
+
+.custonButton:hover {
+    cursor: pointer;
+    
+    transition-duration: 0.4s;
+
+    transform: scale(1.01);
+
+    background-color: var(--blue-dark);
+    
+    box-shadow: 2px 2px 5px var(--blue-shadow);
+}

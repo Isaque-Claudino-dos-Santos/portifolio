@@ -1,0 +1,22 @@
+:root {
+    --blue-main: #355aff;
+    --blue-light: #7d87ff;
+    --blue-dark: #0031cb;
+    --blue-shadow: #010650;
+    --grey-main: #424242;
+    --grey-light: #6d6d6d;
+    --grey-dark: #1b1b1b;
+    --link-color-text: white;
+    --font-color: white;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+
+    background-color: var(--blue-main);
+}
+
+.container {
+    margin: 0 10px;
+}

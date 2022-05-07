@@ -1,0 +1,22 @@
+.card {
+    width: 200px;
+
+    text-align: center;
+
+    border: 2px solid black;
+    border-radius: 5px;
+
+
+    background-color: var(--grey-main);
+    color: var(--font-color);
+}
+
+.card h3 {
+    width: 100%;
+
+    background-color: var(--grey-dark);
+}
+
+.card p {
+    margin: 1%;
+}
